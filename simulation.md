@@ -15,7 +15,7 @@ of electronic products and mechanical assemblies.
 - Ansys Workbench / Mechanical / MAPDL  
 - LS-DYNA, HyperMesh  
 - SpaceClaim  
-![Simulation Workflow](assets/PyAnsys-Ecosystem.png.png)
+![Simulation Workflow](assets/PyAnsys-Ecosystem.png)
 
 ### Selected Work
 - ECU & DC-DC converter reliability analysis  
