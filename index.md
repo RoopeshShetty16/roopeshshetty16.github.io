@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-## Hero
-
 **Roopesh Shetty – Simulation & Reliability Engineer**
 
 Mechanical engineer with *3.5+ years* in industrial R&D, specializing in electronic product simulation, reliability evaluation, and workflow automation.  
