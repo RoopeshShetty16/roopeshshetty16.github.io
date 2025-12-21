@@ -1,11 +1,17 @@
-name: Roopesh Shetty
-role: Simulation & Reliability Engineer
+name: "Roopesh Shetty"
+title: "Simulation & Reliability Engineer"
+location: "Bengaluru, India"
+email: "roopeshshetty169@gmail.com"
+linkedin: "https://www.linkedin.com/in/roopeshshetty"
 summary: >
-  High-fidelity numerical simulation and workflow automation
-  bridging non-linear CAE and data-driven engineering.
-
-image: /assets/Roopesh_Profile.png
-
-social:
-  github: https://github.com/RoopeshShetty16
-  linkedin: https://linkedin.com/in/your-profile
+  Mechanical engineer with 3.5+ years in industrial R&D, specializing in electronic product
+  simulation, reliability evaluation, and workflow automation. Develops robust non-linear CAE
+  models and Python-based tooling to standardize simulations, cut turnaround time, and de-risk
+  design decisions early in the lifecycle.
+philosophy: >
+  Engineering work is anchored in three principles: physical correctness, repeatability, and
+  usefulness to decision-makers. Models must reflect real behaviour, processes must be
+  reproducible and automatable, and results must directly inform design trade-offs. Automation
+  is a way to formalize engineering judgement so teams spend less time clicking and more time
+  thinking; reliability is treated as a core design objective, addressed early through
+  simulation, data, and structured experimentation.
