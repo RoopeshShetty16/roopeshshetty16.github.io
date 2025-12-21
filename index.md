@@ -3,24 +3,39 @@ layout: default
 title: Home
 ---
 
-**Roopesh Shetty – Simulation & Reliability Engineer**
+# Roopesh Shetty
+## Simulation & Reliability Engineer
 
-Mechanical engineer with *3.5+ years* in industrial R&D, specializing in electronic product simulation, reliability evaluation, and workflow automation.  
-Develops robust non-linear CAE models and Python-based tooling to standardize simulations, cut turnaround time, and de-risk design decisions early in the lifecycle.  
-Brings a rare blend of deep FEA expertise, production-grade scripting, and a strong grounding in vehicle dynamics and product development.
-
----
-
-## About Me
-
-Mechanical engineer focused on solving reliability and performance problems in electronic products using simulation, data, and automation. Experience spans e-bike platforms, ECUs, DC-DC converters, and off-road vehicles, with a core emphasis on non-linear structural and thermomechanical analysis.[file:21]  
-
-Work typically starts from a clear problem statement, followed by building physically realistic models, validating behaviour against expected outcomes, and then automating repeatable steps into maintainable workflows. The goal is consistent: turn CAE into a fast, reliable decision engine rather than a one-off analysis activity.
+Mechanical engineer with 3.5+ years in industrial R&D, specializing in electronic product simulation, reliability evaluation, and workflow automation. I develop robust non-linear CAE models and Python-based tooling to standardize simulations, cut turnaround time, and de-risk design decisions early in the lifecycle.
 
 ---
 
-## What I Do for Living
+## Core Expertise
 
-- [Simulation & Reliability Engineering](/simulation.md)  
-- [Automation & Workflow Engineering](/automation.md)  
-- [Projects & Case Studies](/projects.md)
+### Simulation & Reliability Engineering
+Building and running linear and non-linear simulations (static, transient, modal, thermomechanical, vibration) for electronic assemblies and mechanical subsystems using Ansys Workbench, Ansys Mechanical, LS-Dyna, and HyperMesh.
+
+[Learn more about my simulation work →](simulation)
+
+### Automation & Workflow Engineering
+Designing production-level simulation workflows using Python, Ansys scripting (MAPDL/Mechanical), and SpaceClaim macros to reduce manual effort and variability.
+
+[Explore automation projects →](automation)
+
+### Product Development & Systems Thinking
+Contributing to product development in cross-functional R&D environments, bridging CAE, design, and manufacturing constraints.
+
+[View case studies →](projects)
+
+---
+
+## Engineering Philosophy
+
+Engineering work is anchored in three principles: **physical correctness**, **repeatability**, and **usefulness to decision-makers**. Models must reflect real behaviour, processes must be reproducible and automatable, and results must directly inform design trade-offs.
+
+---
+
+## Get in Touch
+
+- [GitHub](https://github.com/RoopeshShetty16)
+- [LinkedIn](https://linkedin.com/in/your-profile)
