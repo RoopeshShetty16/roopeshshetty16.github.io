@@ -1,3 +1,33 @@
-theme: jekyll-theme-cayman
-title: Roopesh Shetty
-description: Simulation, Automation & AI-driven Engineering
+title: "Roopesh Shetty"
+description: "Simulation & Reliability Engineer | CAE Automation Specialist"
+
+# Tagline / subtitle (used by many themes)
+tagline: "High-fidelity numerical simulation and workflow automation to accelerate industrial R&D."
+
+# Author information
+author:
+  name: "Roopesh Shetty"
+  role: "Simulation & Reliability Engineer | CAE Automation Specialist"
+
+# SEO & social preview
+url: "https://roopeshshetty16.github.io"
+baseurl: ""
+
+# Markdown & formatting
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Theme (change later without breaking content)
+theme: minima
+
+# Plugins (safe defaults for GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Optional navigation (used by some themes)
+header_pages:
+  - index.md
+  - projects.md
+  - experience.md
