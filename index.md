@@ -20,7 +20,7 @@ I bring a **rare blend of deep FEA expertise, production-grade Python scripting,
 
 ## What I Do
 
-- **[Simulation & Reliability Engineering](simulation.md)**
+### **[Simulation & Reliability Engineering](simulation.md)**
 - Perform **linear and non-linear simulations** (static, transient, modal, vibration, thermomechanical) for electronic assemblies and mechanical subsystems  
 - Evaluate **press-fit and cold weld joints**, **PCB taboo zones**, and **tolerance-driven assemblies** under realistic load and manufacturing conditions  
 - Support reliability-focused design decisions for **ECUs, DC–DC converters, and e-bike components** by identifying critical failure modes and improvement opportunities  
