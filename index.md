@@ -1,3 +1,11 @@
+# Roopesh Shetty  
+**Simulation & Reliability Engineer | CAE Automation Specialist**
+
+High-fidelity numerical simulation and workflow automation to accelerate industrial R&D.  
+Bridging **structural mechanics**, **non-linear CAE**, and **data-driven engineering** to enable faster, more reliable design decisions.
+
+---
+
 ## About Me
 
 I am a mechanical engineer with **3.5+ years of experience in industrial R&D**, specializing in **electronic product simulation, reliability evaluation, and workflow automation**. My work focuses on developing **robust non-linear CAE models** and **standardized, production-grade simulation workflows** that help de-risk design decisions early in the product lifecycle.
