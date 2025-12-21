@@ -2,8 +2,6 @@
 title: Simulation & Reliability Engineering
 ---
 
-## Simulation & Reliability Engineering
-
 I work on **high-fidelity CAE models** focused on predicting reliability and performance
 of electronic products and mechanical assemblies.
 
