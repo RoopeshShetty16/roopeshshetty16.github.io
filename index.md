@@ -2,9 +2,6 @@
 layout: default
 title: Home
 ---
-<p align="center">
-  <img src="assets/Roopesh_Profile.png" alt="Roopesh Shetty" width="200" style="border-radius: 50%; border: 3px solid #159957;">
-</p>
 
 # Roopesh Shetty
 ## Simulation & Reliability Engineer
