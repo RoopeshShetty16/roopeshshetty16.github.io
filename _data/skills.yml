@@ -1,0 +1,37 @@
+simulation_cae:
+  label: "Simulation & CAE"
+  items:
+    - "Non-linear FEA: thermomechanical, static, transient structural, modal, vibration"
+    - "Press-fit & cold weld joint evaluation"
+    - "PCB taboo zone and tolerance-driven assembly analysis"
+    - "Ansys Mechanical (Workbench, MAPDL), LS-DYNA, Altair HyperMesh, SpaceClaim"
+
+programming_automation:
+  label: "Programming & Automation"
+  items:
+    - "Python, MATLAB, Ansys Mechanical scripting (MAPDL)"
+    - "Pre/post-processing automation and geometry preparation"
+    - "Solver log analysis and automated reporting pipelines"
+    - "pandas, numpy, matplotlib, basic scikit-learn"
+
+data_ai:
+  label: "Data & ML"
+  items:
+    - "Anomaly detection and trend forecasting for engineering data"
+    - "Framing CAE and reliability questions as data problems"
+
+cad_product:
+  label: "CAD & Product Development"
+  items:
+    - "SolidWorks, NX, Fusion 360"
+    - "DFM/DFA, product reliability, design optimization and prototyping"
+    - "E-bike systems, ECUs, DC-DC converters, off-road vehicles"
+
+achievements:
+  label: "Achievements & Recognition"
+  items:
+    - "Runner-up: Bosch Fit-fest 2025 (Data Analytics / Anomaly Detection & Trend Forecasting)"
+    - "Key contributor to press-fit cold weld joint simulation methodologies"
+    - "Developer of CAE automation tools reducing cycle time and standardizing workflows"
+    - "Team manager: SAE BAJA (top-10 finish among 170+ teams)"
+    - "Certified Reliability Engineer (CRE), SolidWorks CSWA, Additive Manufacturing, NPTEL Automation in Manufacturing, Autodesk CAD/CAM/CAE, ML Statistical Foundations"
