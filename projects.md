@@ -149,3 +149,25 @@ Developed multiple Python- and script-based tools:
 ---
 
 [← Back to Home](/)
+```
+
+---
+
+## Summary of Directory Structure:
+```
+RoopeshShetty16.github.io/
+│
+├── _config.yml
+├── index.md
+├── simulation.md
+├── automation.md
+├── projects.md
+│
+├── _layouts/
+│   └── default.html
+│
+└── assets/
+    ├── css/
+    │   └── style.scss
+    ├── Roopesh_Profile.png  (upload your photo here)
+    └── PyAnsys-Ecosystem.png
