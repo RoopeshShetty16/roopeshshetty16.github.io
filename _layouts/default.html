@@ -1,22 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  {% seo %}
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    
+    {% seo %}
+    
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
   
-  <!-- Cayman Theme CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-</head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      
+      <nav class="header-nav">
+        <a href="{{ '/' | relative_url }}" class="btn">Home</a>
+        <a href="{{ '/simulation' | relative_url }}" class="btn">Simulation</a>
+        <a href="{{ '/automation' | relative_url }}" class="btn">Automation</a>
+        <a href="{{ '/projects' | relative_url }}" class="btn">Projects</a>
+      </nav>
+      
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+    </header>
 
-<body>
-  {% include header.html %}
-  
-  <main class="main-content">
-    {{ content }}
-  </main>
-  
-  {% include footer.html %}
-</body>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <hr>
+        <p style="text-align: center;">
+          © {{ site.time | date: "%Y" }} {{ site.author.name | default: site.title }}<br>
+          Built with Jekyll & GitHub Pages
+        </p>
+        <p style="text-align: center;">
+          <em>Simulation, automation, and reliability-driven engineering</em>
+        </p>
+        {% if site.github_username %}
+        <p style="text-align: center;">
+          <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+          {% if site.linkedin_username %}
+            | <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+          {% endif %}
+        </p>
+        {% endif %}
+      </footer>
+    </main>
+  </body>
 </html>
