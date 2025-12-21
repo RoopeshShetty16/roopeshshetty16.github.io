@@ -5,6 +5,28 @@
 
 /* Custom overrides for Cayman theme */
 
+/* Profile image in header */
+.header-profile-image {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 10;
+}
+
+.header-profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+/* Make header position relative for absolute positioning */
+.page-header {
+  position: relative;
+}
+
 /* Navigation styling */
 .header-nav {
   margin-top: 1rem;
@@ -89,6 +111,16 @@
 
 /* Responsive adjustments */
 @media screen and (max-width: 64em) {
+  .header-profile-image {
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+  
+  .header-profile-image img {
+    width: 120px;
+    height: 120px;
+  }
+  
   .header-nav .btn {
     padding: 0.5rem 0.75rem;
     font-size: 0.9rem;
@@ -96,6 +128,17 @@
 }
 
 @media screen and (max-width: 42em) {
+  .header-profile-image {
+    position: static;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .header-profile-image img {
+    width: 100px;
+    height: 100px;
+  }
+  
   .header-nav {
     display: flex;
     flex-wrap: wrap;
