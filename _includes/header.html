@@ -1,13 +1,13 @@
-<p align="right">
-  <img src="{{ site.data.profile.image }}" width="200" style="border-radius: 50%;">
-</p>
-
-<h1 align="center">{{ site.data.profile.name }}</h1>
-<p align="center"><strong>{{ site.data.profile.role }}</strong></p>
-
-<p align="center">
-  <a href="{{ site.data.profile.social.github }}">GitHub</a> |
-  <a href="{{ site.data.profile.social.linkedin }}">LinkedIn</a>
-</p>
-
-<hr>
+<header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+    
+    {% if site.data.navigation %}
+      <nav class="site-nav">
+        {% for item in site.data.navigation %}
+          <a href="{{ item.link | relative_url }}" class="nav-link">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+    {% endif %}
+  </div>
+</header>
