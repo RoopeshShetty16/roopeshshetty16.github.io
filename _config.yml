@@ -1,9 +1,23 @@
-title: Roopesh Shetty
-description: Simulation & Reliability Engineer | CAE Automation Specialist
+title: "Roopesh Shetty"
+description: "Simulation & Reliability Engineer | CAE Automation Specialist"
+
+# Use the Cayman theme from GitHub Pages
 theme: jekyll-theme-cayman
 
+# Site settings
 url: "https://roopeshshetty16.github.io"
 baseurl: ""
 
+# GitHub Pages repository (optional but recommended)
+github:
+  is_project_page: false
+  is_user_page: true
+  repository_url: "https://github.com/roopeshshetty16/roopeshshetty16.github.io"
+
+# Plugins
 plugins:
   - jekyll-seo-tag
+
+# Markdown & highlighter (safe defaults)
+markdown: kramdown
+highlighter: rouge
