@@ -17,6 +17,4 @@ of electronic products and mechanical assemblies.
 - SpaceClaim  
 ![Simulation Workflow](assets/PyAnsys-Ecosystem.png)
 
-### Selected Work
-- ECU & DC-DC converter reliability analysis  
-- E-bike structural and vibration simulations  
+  
