@@ -1,10 +1,5 @@
----
-layout: default
-title: Home
----
 
-# Roopesh Shetty
-## Simulation & Reliability Engineer
+# About me
 
 Mechanical engineer with 3.5+ years in industrial R&D, specializing in electronic product simulation, reliability evaluation, and workflow automation. I develop robust non-linear CAE models and Python-based tooling to standardize simulations, cut turnaround time, and de-risk design decisions early in the lifecycle.
 
